@@ -4,7 +4,7 @@
 set :stages, %w(production staging)
 set :default_stage, "staging"
 set :application, 'reportbooru'
-set :repo_url, 'git://github.com/r888888888/reportbooru.git'
+set :repo_url, 'git://github.com/evazion/reportbooru.git'
 set :user, "danbooru"
 set :deploy_to, "/var/www/reportbooru"
 set :scm, :git
@@ -14,4 +14,3 @@ set :default_env, {
 }
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'public/exports', 'public/user-reports', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle')
 set :linked_files, fetch(:linked_files, []).push(".env")
-set :rbenv_ruby, "2.3.1"
