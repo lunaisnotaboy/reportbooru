@@ -6,7 +6,6 @@ Reportbooru is a collection of services for reporting on [Danbooru](https://danb
 * Common searches
 * User similarity reports
 * Exporting data to Google BigQuery
-* Calculating related tags
 * User performance reports
 
 The web frontend is a standard Rails application. Reportbooru also runs daemon processes that listen on Amazon SQS for jobs.
