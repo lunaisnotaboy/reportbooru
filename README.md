@@ -4,7 +4,6 @@ Reportbooru is a collection of services for reporting on [Danbooru](https://danb
 * Missed search hits
 * Search trends
 * Common searches
-* User similarity reports
 * Exporting data to Google BigQuery
 * User performance reports
 
