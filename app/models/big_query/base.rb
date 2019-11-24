@@ -28,24 +28,10 @@ module BigQuery
       0
     end
 
-    def get_two(resp)
-      [resp["rows"][0]["f"][0]["v"], resp["rows"][0]["f"][1]["v"]]
-    rescue
-      0
-    end
-
     def get_three(resp)
       [resp["rows"][0]["f"][0]["v"], resp["rows"][0]["f"][1]["v"], resp["rows"][0]["f"][2]["v"]]
     rescue
       0
-    end
-
-    def get_two_mult(resp)
-      resp["rows"].map do |x|
-        [x["f"][0]["v"], x["f"][1]["v"]]
-      end
-    rescue
-      nil
     end
 
     def escape(s)
