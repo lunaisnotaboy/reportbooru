@@ -58,7 +58,7 @@ class ViewCounter
 
   def fetch_post_view_count(post_id)
     key = {
-      "post_id" => post_id
+      "post_id" => post_id.to_i
     }
     resp = dynamodb.get_item(key: key, table_name: "post_views_#{Rails.env}")
     if resp.item
