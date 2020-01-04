@@ -143,7 +143,7 @@ class ViewCounter
   end
 
   def dynamodb
-    Aws::DynamoDB::Client.new(region: "us-west-1")
+    Aws::DynamoDB::Client.new(region: ENV["AWS_REGION"])
   end
 
   memoize :dynamodb
