@@ -33,7 +33,7 @@ gem 'redis'
 gem 'postgresql_cursor'
 gem 'aws-sdk', '~> 2'
 gem 'lru_redux'
-gem 'bigquery', :git => "https://github.com/r888888888/BigQuery.git"
+gem 'bigquery', git: "https://github.com/r888888888/BigQuery"
 gem 'pony'
 gem 'google-api-client'
 gem 'haml'
