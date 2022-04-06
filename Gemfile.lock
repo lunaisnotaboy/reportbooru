@@ -161,11 +161,8 @@ GEM
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     os (0.9.6)
-    pg (0.21.0)
     pony (1.13.1)
       mail (>= 2.0)
-    postgresql_cursor (0.6.4)
-      activerecord (>= 3.1.0)
     public_suffix (4.0.1)
     rack (1.6.11)
     rack-test (0.6.3)
@@ -278,9 +275,7 @@ DEPENDENCIES
   jquery-rails
   lru_redux
   memoist
-  pg (~> 0.15)
   pony
-  postgresql_cursor
   rails (~> 4.2.0)
   redis
   sass-rails (~> 5.0)

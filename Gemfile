@@ -25,12 +25,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-gem 'pg', '~> 0.15'
 gem 'whenever'
 gem 'httpclient'
 gem 'capistrano'
 gem 'redis'
-gem 'postgresql_cursor'
 gem 'aws-sdk', '~> 2'
 gem 'lru_redux'
 gem 'bigquery', git: "https://github.com/r888888888/BigQuery"
