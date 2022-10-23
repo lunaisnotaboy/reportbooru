@@ -1,4 +1,4 @@
-env "MAILTO", "webmaster@danbooru.donmai.us"
+env "MAILTO", "her@mint.lgbt"
 
 every 1.day do
   runner "HitCounter.new.prune!"
